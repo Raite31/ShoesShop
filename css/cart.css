@@ -1,0 +1,210 @@
+/*导航栏*/
+@import"public_float.css";
+@import "public_foot.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*整体*/
+#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*头部横条*/
+#head {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225 225 225);
+    opacity: 0.9;
+    z-index: 2;
+    position: relative;
+}
+
+/*管理地址按钮*/
+#address {
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#address:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+#address:active {
+	position:relative;
+	top:1px;
+}
+
+.kuilei{
+    width: 100%;
+    position: absolute;
+}
+/*地址表格*/
+.address-table {
+    width: 404px;
+    height: 404px;
+    position: absolute;
+    margin: 0 auto;
+    left: 759.2px;
+    margin-left: -202px;
+    z-index: 2;
+    display: none;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+fieldset {
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    width: 60px;
+    margin: 5px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 10px;
+}
+fieldset input{
+    border-radius: 4px;
+}
+fieldset .cancle,.certain{
+    width: 80px;
+    height: 35px;
+    margin: 20px;
+    box-shadow: 0px 10px 14px -7px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:5px;
+    border:2px solid #a09aa0;
+	display:inline-block;
+	cursor:pointer;
+    color:black;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+    font-weight: bold;
+}
+fieldset .cancle:hover,.certain:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+fieldset .cancle:active,.certain:active {
+	position:relative;
+	top:1px;
+}
+
+/* 遮罩 */
+#cover{
+    width: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    filter: alpha(opacity=30); 
+    background: #000; 
+    opacity: 0.3; 
+    display: none; 
+    z-index: 2;
+}
+
+
+/* 结算按钮 */
+#num{
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#num:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+#num:active {
+	position:relative;
+	top:1px;
+}
+
+/* 商品 */
+#cart {
+    width: 100%;
+    position: relatives;
+}
+#cart h1 {
+    height: 70px;
+    line-height: 60px;
+    padding-left: 60px;
+    border-bottom: 3px solid #b6b0b0;
+}
+#cart ul {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+#cart li img {
+    width: 200px;
+}
+#cart li {
+    padding-bottom: 20px;
+    height: 500px;
+}
+#cart ul li .delete{
+    width: 50px;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: 0px 10px 14px -7px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:8px;
+    border:2px solid #a09aa0;
+	display:inline-block;
+	cursor:pointer;
+    color:black;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+#cart ul li .delete:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+#cart ul li .delete:active {
+	position:relative;
+	top:1px;
+}
+

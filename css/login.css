@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../photo/fengjing7.jpg");
+    background-size: cover;
+}
+.top{
+    width: 450px;
+    position: relative;
+    margin: 50px auto;
+}
+.top_p{
+    text-align: center;
+    font-size: 50px;
+    font-family: impact, sans-serif;
+    border-radius: 10px;
+}
+
+.login {
+    position: relative;
+    margin: 0 auto;
+    width: 450px;
+    height: 270px;
+    background-color: white;
+    opacity: 0.9;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+
+fieldset {
+    width: 400px;
+    height: 230px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    width: 80px;
+    margin: 20px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.aa{
+    width: 100px;
+    height: 30px;
+}

@@ -1,0 +1,90 @@
+/*导航栏*/
+@import"public_float.css";
+@import "public_foot.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*整体*/
+#wrapper {
+    width: 1518px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*头部横条*/
+#head {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225 225 225);
+    opacity: 0.9;
+    z-index: 2;
+    position: relative;
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#pay{
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#pay:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+#pay:active {
+	position:relative;
+	top:1px;
+}
+#sureOrder {
+    width: 1518px;
+    height: 100%;
+}
+
+#sureOrder h1 {
+    height: 70px;
+    line-height: 60px;
+    padding-left: 60px;
+    border-bottom: 3px solid #b6b0b0;
+}
+#sureOrder ul {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/*列表样式*/
+#sureOrder ul li:nth-child(1) span {
+    display: inline-block;
+    width: 155px;
+    text-align: center;
+    border-right: grey 1px solid;
+    border-top: grey  1px solid;
+}
+
+#sureOrder ul li:nth-child(1) .goods {
+    margin-left: 178px;
+}

@@ -1,0 +1,89 @@
+.top {
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/*第1行列表的样式*/
+#wrapper ul .first-li {
+    height: 25px;
+    margin-top: 20px;
+}
+
+/*第1行列表的span样式*/
+#wrapper ul li:nth-child(1) span {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    border-right: grey 1px solid;
+    border-top: grey 1px solid;
+}
+
+/*第一行的id框的样式*/
+#wrapper ul li:nth-child(1) .id {
+    margin-left: 50px;
+}
+
+.aa{
+    position: relative;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+/*设置弹窗样式*/
+#cover{
+    background: #000; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 100%; 
+    height: 100%;
+    filter: alpha(opacity=30); 
+    opacity: 0.3; 
+    display: none; 
+    z-index: 2;
+    padding:50px;
+}
+
+.address-table {
+    position: absolute;
+    left: 350px;
+    top: -0.5px;
+    margin-top: 20px;
+    z-index: 2;
+    display: none;
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px
+}
+
+fieldset {
+    margin: 30px;
+    width: 300px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+    margin: 5px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 10px;
+}
+
+.inp{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+}
